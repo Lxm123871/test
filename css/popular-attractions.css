@@ -1,0 +1,61 @@
+.box-j {
+    margin: 10px auto;
+    height: 350px;
+
+}
+
+.box-h-j p {
+    text-align: center;
+}
+
+.box-j-x {
+    width: 750px;
+    height: 245px;
+    margin: auto;
+    list-style: none;
+}
+
+.box-x-1 {
+    width: 240px;
+    height: 300px;
+    background: #f0f3f4;
+    float: left;
+    margin-left: 10px;
+}
+
+.box-x-1 img {
+    display: block;
+    width: 240px;
+    height: 160px;
+}
+
+.box-x-1 span {
+    font-size: 20px;
+    font-family: "宋体";
+    font-weight: bold;
+    /*文字加粗*/
+    margin-top: 5px;
+
+}
+
+.box-x-1 p {
+    font-size: 13px;
+
+}
+
+.box-x-2 {
+    background: #cdddb9;
+}
+
+.wenz {
+    font-size: 20px;
+    color: #fff;
+    font-family: "宋体";
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.wenz2 {
+    font-size: 13px;
+    color: #fff;
+}

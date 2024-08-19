@@ -1,0 +1,69 @@
+.box-h {
+    height: 310px;
+    display: block;
+}
+
+.box-h-j {
+    margin: 26px auto;
+}
+
+.box-h-j p {
+    font-size: 26px;
+    font-family: "华文隶书";
+    /*设置字体样式*/
+    color: #6e9a3b;
+    text-align: center;
+    /*文字居中*/
+    /* padding-top: 30px; */
+}
+
+.box-h-x {
+    margin: 0 auto;
+    width: 600px;
+    height: 160px;
+    background: #fff;
+    /* margin-left: 180px; */
+    box-shadow: 6px 15px 30px #5E5E5E;
+}
+
+.box-h-x img {
+    display: block;
+    width: 160px;
+}
+
+.box-h-x-y {
+    width: 440px;
+    height: 160px;
+    float: right;
+    margin-top: -126px;
+}
+
+.y-nei {
+    width: 70px;
+    height: 30px;
+    background: #6e9a3b;
+    opacity: 0.5;
+    margin-top: 20px;
+}
+
+.y-nei p {
+    font-size: 13px;
+    color: #fff;
+    text-align: center;
+    line-height: 2;
+
+}
+
+.y-nei-w p {
+    font-size: 12px;
+    margin-top: 10px;
+    color: #000000;
+    margin-left: 10px;
+}
+
+.y-nei-x {
+    width: 70px;
+    height: 25px;
+    margin-left: 370px;
+    margin-top: -15px;
+}

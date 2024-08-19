@@ -1,0 +1,41 @@
+.box-m {
+    height: 410px;
+}
+
+.box-h-j p {
+    text-align: center;
+}
+
+.box-m-x {
+    width: 630px;
+    height: 280px;
+    margin: auto;
+    list-style: none;
+}
+
+.box-m-1 {
+    margin-left: 15px;
+    float: left;
+    width: 195px;
+    height: 280px;
+}
+
+.box-m-1 img {
+    display: block;
+    width: 195px;
+    height: 127px;
+}
+
+.box-m-wz {
+    margin-top: 5px;
+    text-align: center;
+}
+
+.box-m-wz span {
+    font-size: 18px;
+}
+
+.box-m-wz p {
+    margin-top: 8px;
+    font-size: 6px;
+}
