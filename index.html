@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>MyHome</title>
+</head>
+
+<body>
+    <div class="box"> <!--一个大盒子-->
+        <div class="box-b">
+            <div class="box-b-d" id="deng">
+                <a id="dengl" href="./login.html">登录</a> <!--登录-->
+                <i>|</i>
+                <a id="zc" href="./register.html">注册</a> <!--注册-->
+            </div>
+            <div class="box-b-s">
+                <p id="shij"></p> <!--获取当前时间-->
+            </div>
+        </div>
+        <div class="box-k">
+            <div class='box-k-t'>
+                <img src="./images/photo10.jpg" /> <!--logo-->
+            </div>
+            <ul class="box-k-b"> <!--导航栏-->
+                <li>
+                    <a href="./index.html">首页</a>
+                </li>
+                <li>
+                    <a href="./hometown-profile.html">景区简介</a>
+                </li>
+                <li>
+                    <a href="./culinary-specialties.html">特色美食</a>
+                </li>
+                <li>
+                    <a>在线旅游</a>
+                </li>
+                <li>
+                    <a href="./popular-attractions.html">旅游好处</a>
+                </li>
+                <li>
+                    <a>预约服务</a>
+                </li>
+            </ul>
+        </div>
+        <div id="box-t"> <!--轮播图-->
+            <div id="left">
+                <span>-</span> <!--左箭头-->
+            </div>
+            <div id="right"> <!--右箭头-->
+                <span>></span>
+            </div>
+            <img class="tup" src="images/photo1.jpg" /> <!--获取图片-->
+            <img src="images/photo2.jpg" />
+            <img src="images/photo3.jpg" />
+            <img src="images/photo4.jpg" />
+            <img src="images/photo5.jpg" />
+            <div class="box-t-y"> <!--按钮-->
+                <p class="box-y-x"></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+            </div>
+        </div>
+
+        <div class="box-w"> <!--页尾-->
+            <div class="box-w-1">
+                <img src="./images/photo1.jpg" />
+                <div class="w-x"> <!--尾部文字-->
+                    <span>美丽肇庆</span>
+                    <p>客服热线：xxxx xxxxxxxx</p>
+                </div>
+            </div>
+            <div class="w-z">
+                <!-- <img src="#" alt="二维码图片" title="二维码图片" /> 二维码图片 -->
+                <a href="#">返回<br>顶部</a> <!--点击直接返回顶部-->
+            </div>
+        </div>
+
+        <script>
+            var oZ = document.getElementById('zc');
+            oZ.onclick = function () {
+                window.open("register.html", "");
+            }
+            var oA = document.getElementById('dengl');    /*获取登录、注册元素,单击跳转到另一个页面*/
+            oA.onclick = function () {
+                window.open("login.html", "");
+            }
+
+
+            function lunb() {
+                for (var i = 0; i < aDp.length; i++) {
+                    aDp[i].className = "";
+                    aImg[i].className = "";
+                }
+                aDp[now].className = "box-y-x";
+                aImg[now].className = "tup";
+            }
+            var aBoxt = document.getElementById('box-t');     //获取元素
+            var aImg = aBoxt.getElementsByTagName('img');
+            var aDp = aBoxt.getElementsByTagName('p');
+            var aLeft = document.getElementById('left');
+            var aRight = document.getElementById('right');
+            var now = 0;
+            var dings = 'null';
+            for (var i = 0; i < aDp.length; i++) {       //通过for循环，给按钮添加事件
+                aDp[i].index = i;
+                aDp[i].onmousemove = function () {
+                    now = this.index;
+                    lunb();
+                }
+            }
+            aLeft.onclick = function () {        //左箭头
+                now--;
+                if (now < 0) {
+                    now = 4;
+                }
+                lunb();
+            }
+            aRight.onclick = function () {      //右箭头
+                now++;
+                if (now == 5) {
+                    now = 0;
+                }
+                lunb();
+            }
+            dings = setInterval(function () {     //添加定时器
+                now++;
+                if (now == 5) {
+                    now = 0;
+                }
+                lunb();
+            }, 15000);
+            aBoxt.onmouseout = function () {     //鼠标移出，触发开启定时器事件
+                dings = setInterval(function () {
+                    now++;
+                    if (now == 5) {
+                        now = 0;
+                    }
+                    lunb();
+                }, 15000);
+            }
+
+        </script>
+</body>
+
+</html>
