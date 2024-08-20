@@ -1,0 +1,72 @@
+﻿@model FAS202024131135.Models.Asset
+
+@{
+    ViewData["Title"] = "修改";
+}
+
+<body style="background-color: #F5F5FF">
+    <h4>修改资产信息:</h4>
+    <hr />
+    <div class="row">
+        <div class="col-md-6">
+            <form method="post" asp-action="Edit" enctype="multipart/form-data" style="background-color:  #F0F8FF;">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" asp-for="AssetID" />
+                <div class="form-group">
+                    <label asp-for="AssetName" class="control-label"></label>
+                    <input asp-for="AssetName" class="form-control" />
+                    <span asp-validation-for="AssetName" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="AssetSize" class="control-label"></label>
+                    <input asp-for="AssetSize" class="form-control" />
+                    <span asp-validation-for="AssetSize" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Price" class="control-label"></label>
+                    <input asp-for="Price" class="form-control" />
+                    <span asp-validation-for="Price" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Data" class="control-label"></label>
+                    <input asp-for="Data" class="form-control" />
+                    <span asp-validation-for="Data" class="text-danger"></span>
+                </div>
+                
+                <div class="form-group">
+                    <label asp-for="StorageLocation" class="control-label"></label>
+                    <input asp-for="StorageLocation" class="form-control" />
+                    <span asp-validation-for="StorageLocation" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    所属类别
+                    <select asp-for="CategoryID" class="form-control" asp-items="ViewBag.CategoryID"></select>
+                </div>
+                <div class="form-group">
+                    资产保管人
+                    <select asp-for="EmployeeID" class="form-control" asp-items="ViewBag.EmployeeID"></select>
+                </div>
+                <div class="form-group">
+                    <input type="hidden" name="OldPicture" value="@Model.CategoryPhoto" />
+                    <label asp-for="CategoryPhoto" class="control-label"></label><br />
+                    <!--圆角边框,里面放1张电影图片-->
+                    <img src="~/images/@Model.CategoryPhoto" style="width:20%" />
+                    <!--如果要修信息,一定要重选图片,否则送不出-->
+                    <input type="file" name="imgFile" required />
+                    <input type="submit" value="保存" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div>
+        <br /><a asp-action="Index">回到主列表</a>
+    </div>
+</body>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

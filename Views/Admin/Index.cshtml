@@ -1,0 +1,63 @@
+﻿@{
+    ViewData["Title"] = "资产分类管理";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>欢迎光临资产分类管理</title>
+    <link href="~/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body style="background-color:  #F0F8FF;">
+    
+    <div class="container mt-3 mb-3">
+        <h1 style="text-align:center;">欢迎光临资产分类管理</h1>
+        <div class="men">
+            <style>
+                .men {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    padding: 10px;
+                    border-bottom: 2px solid #a5a2a2;
+                    border-top: 2px solid #a5a2a2;
+                }
+
+                    .men > a {
+                        padding: 5px;
+                    }
+            </style>
+            <nav style="background-color:antiquewhite;">
+                @foreach (var item in ViewBag.catNames)
+                {
+                    <a href="/Admin/Index?cat=@item">@item</a>
+                }
+                <a href="/Admin/Index">最新</a>
+        </div>
+        <div class="row">
+            @foreach (var item in Model)
+            {
+                
+                <div class="col-12 col-md-3 col-sm-6 mt-3">
+                    <div class="img-thumbnail" style="height:70%;">
+                        <style>
+                            .a {
+                                width: 200px;
+                                height: 200px;
+                            }
+                        </style>
+                        <img src="~/images/@item.CategoryPhoto" style="width:100%;height:100%;" class="a" />
+                    </div>
+                    <div style="height:30%;padding:10px;">
+                        编号：@item.AssetID
+                        <br /><b>@item.AssetName</b>/@item.Category.CategoryName
+                        <br />存放位置：@item.StorageLocation
+                        <br />资产规格：@item.AssetSize
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</body>
+</html>

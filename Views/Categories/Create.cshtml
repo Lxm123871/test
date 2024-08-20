@@ -1,0 +1,40 @@
+﻿@model FAS202024131135.Models.Category
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<body style="background-color: #F5F5FF">
+    <h1>添加资产分类</h1>
+
+    <hr />
+    <div class="row">
+        <div class="col-md-4">
+            <form asp-action="Create" style="background-color:  #F0F8FF;">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="CategoryName" class="control-label"></label>
+                    <input asp-for="CategoryName" class="form-control" />
+                    <span asp-validation-for="CategoryName" class="text-danger"></span>
+                </div>
+                
+                <div class="form-group">
+                    <label asp-for="CategoryDescription" class="control-label"></label>
+                    <textarea asp-for="CategoryDescription" class="form-control" rows="4"></textarea>
+                    <span asp-validation-for="CategoryDescription" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="添加" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div>
+        <a asp-action="Index">回到主列表</a>
+    </div>
+</body>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

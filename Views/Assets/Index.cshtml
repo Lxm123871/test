@@ -1,0 +1,106 @@
+﻿@model IEnumerable<FAS202024131135.Models.Asset>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<body style="background-color: #F5F5FF">
+
+    <h1 style="text-align: center; margin-top: 20px;">资产管理</h1>
+    <div style="display: flex; justify-content: center; align-items: center;">
+
+        <form asp-action="Index" method="get">
+            <div class="form-actions no-color">
+                <p>
+                    输入关键字：(可按编号/名称/类别/日期（年度）/存放位置/保管人姓名查询): <input type="text" name="SearchString" value="@ViewData["CurrentFilter"]" />
+                    <input type="submit" value="搜索" class="btn btn-primary btn-sm" /> |
+                    <a asp-action="Index">回到全部列表</a> |
+                    @*[Authorize(Roles = "Admin")]*@
+                    <a asp-action="Create">添加资产</a>
+                </p>
+            </div>
+        </form>
+    </div>
+    <table class="table" style="background-color:  #F0F8FF;">
+        <thead class="table-active">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.AssetID)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.AssetName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.AssetSize)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.CategoryPhoto)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Price)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Data)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.StorageLocation)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Category)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Employee)
+                </th>
+                <th>
+                    操作
+                </th>
+            </tr>
+        </thead>
+        <tbody style="background-color:  #F0F8FF;">
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.AssetID)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.AssetName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.AssetSize)
+                    </td>
+                    <td>
+                        <img src="~/images/@item.CategoryPhoto" style="height:60px;width:40px" />
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Price)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Data)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.StorageLocation)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Category.CategoryName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Employee.EmployeeName)
+                    </td>
+                    <td>
+                        @if (User.IsInRole("Admin")) //如果当前用户属于 Admin 角色，则显示所有按钮
+                        {
+                            <a asp-action="Edit" asp-route-id="@item.AssetID" class="btn btn-sm btn-outline-primary">修改</a>
+                            <a asp-action="Details" asp-route-id="@item.AssetID" class="btn btn-sm btn-outline-primary">详情</a>
+                            <a asp-action="Delete" asp-route-id="@item.AssetID" class="btn btn-sm btn-outline-primary">删除</a>
+                        }
+                        else //如果当前用户不属于 Admin 角色，则只显示查询按钮
+                        {
+                            <a asp-action="Details" asp-route-id="@item.AssetID" class="btn btn-sm btn-outline-primary">详情</a>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</body>

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\FAS202024131135.props" />
+</Project>

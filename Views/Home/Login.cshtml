@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>用户登录</title>
+    <style>
+        body {
+            background-image: url("/images/login.jpg");
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .login-form {
+            width: 300px;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8); /* 设置为透明白色 */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .login-title {
+            text-align: center;
+            color: #add8e6;
+            margin-top: 0;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button[type="submit"] {
+            background-color: #337ab7;
+            color: #fff;
+            padding: 8px 16px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+            button[type="submit"]:hover {
+                background-color: #23527c;
+            }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <form method="post" action="/Home/Login" class="login-form">
+            <h3 class="login-title">用户登录</h3>
+
+            <div class="form-group">
+                <label for="uid">用户:</label>
+                <input type="text" id="uid" name="uid">
+            </div>
+            <div class="form-group">
+                <label for="pwd">密码:</label>
+                <input type="password" id="pwd" name="pwd">
+            </div>
+            <div class="form-group" style="display:flex; justify-content: center;">
+                <button type="submit">登录</button>
+            </div>
+
+
+        </form>
+        <div style="display: flex; justify-content: center; align-items: center;">
+            <div>
+                系统管理员:admin@qq.com/AAaa12345
+                普通员工:zhangwei@qq.com/AAaa12345
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,67 @@
+﻿@model FAS202024131135.Models.Asset
+
+@{
+    ViewData["Title"] = "Create";
+}
+<body style="background-color: #F5F5FF">
+
+    <h1>添加资产信息</h1>
+
+    <hr />
+    <div class="row">
+        <div class="col-md-4">
+            <form asp-action="Create" enctype="multipart/form-data" style="background-color:  #F0F8FF;">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="AssetName" class="control-label"></label>
+                    <input asp-for="AssetName" class="form-control" />
+                    <span asp-validation-for="AssetName" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="AssetSize" class="control-label"></label>
+                    <input asp-for="AssetSize" class="form-control" />
+                    <span asp-validation-for="AssetSize" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Price" class="control-label"></label>
+                    <input asp-for="Price" class="form-control" />
+                    <span asp-validation-for="Price" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Data" class="control-label"></label>
+                    <input asp-for="Data" class="form-control" />
+                    <span asp-validation-for="Data" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="StorageLocation" class="control-label"></label>
+                    <input asp-for="StorageLocation" class="form-control" />
+                    <span asp-validation-for="StorageLocation" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="CategoryID" class="control-label"></label>
+                    <select asp-for="CategoryID" class="form-control" asp-items="ViewBag.CategoryID"></select>
+                </div>
+                <div class="form-group">
+                    <label asp-for="EmployeeID" class="control-label"></label>
+                    <select asp-for="EmployeeID" class="form-control" asp-items="ViewBag.EmployeeID"></select>
+                </div>
+                <div class="form-group">
+                    <label asp-for="CategoryPhoto" class="control-label"></label><br />
+                    <input type="file" name="imgFile" accept="image/gif,image/jpeg,image/jpg,image/png" required />
+
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="添加" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div>
+        <a asp-action="Index">回到主列表</a>
+    </div>
+
+</body>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

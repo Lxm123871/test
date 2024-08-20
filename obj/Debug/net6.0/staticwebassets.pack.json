@@ -1,0 +1,357 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\ceshi\\vs2022\\ceshi3\\FAS202024131135\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\FAS202024131135.bundle.scp.css",
+      "PackagePath": "staticwebassets\\FAS202024131135.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\ceshi\\vs2022\\ceshi3\\FAS202024131135\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\ceshi\\vs2022\\ceshi3\\FAS202024131135\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\ceshi\\vs2022\\ceshi3\\FAS202024131135\\wwwroot\\images\\038ceca4-d88c-49c4-9b75-ab15104c626b.png",
+      "PackagePath": "staticwebassets\\images\\038ceca4-d88c-49c4-9b75-ab15104c626b.png"
+    },
+    {
+      "Id": "D:\\ceshi\\vs2022\\ceshi3\\FAS202024131135\\wwwroot\\images\\0ad537fb-167c-41bf-be71-a06c46da680b.png",
+      "PackagePath": "staticwebassets\\images\\0ad537fb-167c-41bf-be71-a06c46da680b.png"
+    },
+    {
+      "Id": "D:\\ceshi\\vs2022\\ceshi3\\FAS202024131135\\wwwroot\\images\\23cbd0be-c0bb-45e2-9fba-7a637d71df25.png",
+      "PackagePath": "staticwebassets\\images\\23cbd0be-c0bb-45e2-9fba-7a637d71df25.png"
+    },
+    {
+      "Id": "D:\\ceshi\\vs2022\\ceshi3\\FAS202024131135\\wwwroot\\images\\5a409e06-1ea8-45de-af4b-8a5a88b8d2ac.png",
+      "PackagePath": "staticwebassets\\images\\5a409e06-1ea8-45de-af4b-8a5a88b8d2ac.png"
+    },
+    {
+      "Id": "D:\\ceshi\\vs2022\\ceshi3\\FAS202024131135\\wwwroot\\images\\6b9e55d0-77db-4277-a582-1b2ecde3f6b2.png",
+      "PackagePath": "staticwebassets\\images\\6b9e55d0-77db-4277-a582-1b2ecde3f6b2.png"
+    },
+    {
+      "Id": "D:\\ceshi\\vs2022\\ceshi3\\FAS202024131135\\wwwroot\\images\\6fc9f6a3-c98a-4971-92bb-8948a60d2d0b.png",
+      "PackagePath": "staticwebassets\\images\\6fc9f6a3-c98a-4971-92bb-8948a60d2d0b.png"
+    },
+    {
+      "Id": "D:\\ceshi\\vs2022\\ceshi3\\FAS202024131135\\wwwroot\\images\\71e237ef-ce06-4fa5-b4c2-7514ad3dfcad.png",
+      "PackagePath": "staticwebassets\\images\\71e237ef-ce06-4fa5-b4c2-7514ad3dfcad.png"
+    },
+    {
+      "Id": "D:\\ceshi\\vs2022\\ceshi3\\FAS202024131135\\wwwroot\\images\\7df523fe-b470-497d-bb5e-fad0252869b3.png",
+      "PackagePath": "staticwebassets\\images\\7df523fe-b470-497d-bb5e-fad0252869b3.png"
+    },
+    {
+      "Id": "D:\\ceshi\\vs2022\\ceshi3\\FAS202024131135\\wwwroot\\images\\aabe4dd0-9318-4cf6-a6e8-66d92bf3e141.png",
+      "PackagePath": "staticwebassets\\images\\aabe4dd0-9318-4cf6-a6e8-66d92bf3e141.png"
+    },
+    {
+      "Id": "D:\\ceshi\\vs2022\\ceshi3\\FAS202024131135\\wwwroot\\images\\b4dde0c5-7a27-46ae-9dd6-2acb64f88046.jpg",
+      "PackagePath": "staticwebassets\\images\\b4dde0c5-7a27-46ae-9dd6-2acb64f88046.jpg"
+    },
+    {
+      "Id": "D:\\ceshi\\vs2022\\ceshi3\\FAS202024131135\\wwwroot\\images\\index.jpg",
+      "PackagePath": "staticwebassets\\images\\index.jpg"
+    },
+    {
+      "Id": "D:\\ceshi\\vs2022\\ceshi3\\FAS202024131135\\wwwroot\\images\\login.jpg",
+      "PackagePath": "staticwebassets\\images\\login.jpg"
+    },
+    {
+      "Id": "D:\\ceshi\\vs2022\\ceshi3\\FAS202024131135\\wwwroot\\images\\photo1.png",
+      "PackagePath": "staticwebassets\\images\\photo1.png"
+    },
+    {
+      "Id": "D:\\ceshi\\vs2022\\ceshi3\\FAS202024131135\\wwwroot\\images\\photo10.png",
+      "PackagePath": "staticwebassets\\images\\photo10.png"
+    },
+    {
+      "Id": "D:\\ceshi\\vs2022\\ceshi3\\FAS202024131135\\wwwroot\\images\\photo11.png",
+      "PackagePath": "staticwebassets\\images\\photo11.png"
+    },
+    {
+      "Id": "D:\\ceshi\\vs2022\\ceshi3\\FAS202024131135\\wwwroot\\images\\photo2.png",
+      "PackagePath": "staticwebassets\\images\\photo2.png"
+    },
+    {
+      "Id": "D:\\ceshi\\vs2022\\ceshi3\\FAS202024131135\\wwwroot\\images\\photo3.png",
+      "PackagePath": "staticwebassets\\images\\photo3.png"
+    },
+    {
+      "Id": "D:\\ceshi\\vs2022\\ceshi3\\FAS202024131135\\wwwroot\\images\\photo4.png",
+      "PackagePath": "staticwebassets\\images\\photo4.png"
+    },
+    {
+      "Id": "D:\\ceshi\\vs2022\\ceshi3\\FAS202024131135\\wwwroot\\images\\photo5.png",
+      "PackagePath": "staticwebassets\\images\\photo5.png"
+    },
+    {
+      "Id": "D:\\ceshi\\vs2022\\ceshi3\\FAS202024131135\\wwwroot\\images\\photo6.png",
+      "PackagePath": "staticwebassets\\images\\photo6.png"
+    },
+    {
+      "Id": "D:\\ceshi\\vs2022\\ceshi3\\FAS202024131135\\wwwroot\\images\\photo7.png",
+      "PackagePath": "staticwebassets\\images\\photo7.png"
+    },
+    {
+      "Id": "D:\\ceshi\\vs2022\\ceshi3\\FAS202024131135\\wwwroot\\images\\photo8.png",
+      "PackagePath": "staticwebassets\\images\\photo8.png"
+    },
+    {
+      "Id": "D:\\ceshi\\vs2022\\ceshi3\\FAS202024131135\\wwwroot\\images\\photo9.png",
+      "PackagePath": "staticwebassets\\images\\photo9.png"
+    },
+    {
+      "Id": "D:\\ceshi\\vs2022\\ceshi3\\FAS202024131135\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\ceshi\\vs2022\\ceshi3\\FAS202024131135\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\ceshi\\vs2022\\ceshi3\\FAS202024131135\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\ceshi\\vs2022\\ceshi3\\FAS202024131135\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\ceshi\\vs2022\\ceshi3\\FAS202024131135\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\ceshi\\vs2022\\ceshi3\\FAS202024131135\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\ceshi\\vs2022\\ceshi3\\FAS202024131135\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\ceshi\\vs2022\\ceshi3\\FAS202024131135\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\ceshi\\vs2022\\ceshi3\\FAS202024131135\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\ceshi\\vs2022\\ceshi3\\FAS202024131135\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\ceshi\\vs2022\\ceshi3\\FAS202024131135\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\ceshi\\vs2022\\ceshi3\\FAS202024131135\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\ceshi\\vs2022\\ceshi3\\FAS202024131135\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\ceshi\\vs2022\\ceshi3\\FAS202024131135\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\ceshi\\vs2022\\ceshi3\\FAS202024131135\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\ceshi\\vs2022\\ceshi3\\FAS202024131135\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\ceshi\\vs2022\\ceshi3\\FAS202024131135\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\ceshi\\vs2022\\ceshi3\\FAS202024131135\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\ceshi\\vs2022\\ceshi3\\FAS202024131135\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\ceshi\\vs2022\\ceshi3\\FAS202024131135\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\ceshi\\vs2022\\ceshi3\\FAS202024131135\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\ceshi\\vs2022\\ceshi3\\FAS202024131135\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\ceshi\\vs2022\\ceshi3\\FAS202024131135\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\ceshi\\vs2022\\ceshi3\\FAS202024131135\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\ceshi\\vs2022\\ceshi3\\FAS202024131135\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\ceshi\\vs2022\\ceshi3\\FAS202024131135\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\ceshi\\vs2022\\ceshi3\\FAS202024131135\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\ceshi\\vs2022\\ceshi3\\FAS202024131135\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\ceshi\\vs2022\\ceshi3\\FAS202024131135\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\ceshi\\vs2022\\ceshi3\\FAS202024131135\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\ceshi\\vs2022\\ceshi3\\FAS202024131135\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\ceshi\\vs2022\\ceshi3\\FAS202024131135\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\ceshi\\vs2022\\ceshi3\\FAS202024131135\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\ceshi\\vs2022\\ceshi3\\FAS202024131135\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\ceshi\\vs2022\\ceshi3\\FAS202024131135\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\ceshi\\vs2022\\ceshi3\\FAS202024131135\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\ceshi\\vs2022\\ceshi3\\FAS202024131135\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\ceshi\\vs2022\\ceshi3\\FAS202024131135\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\ceshi\\vs2022\\ceshi3\\FAS202024131135\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\ceshi\\vs2022\\ceshi3\\FAS202024131135\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\ceshi\\vs2022\\ceshi3\\FAS202024131135\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\ceshi\\vs2022\\ceshi3\\FAS202024131135\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\ceshi\\vs2022\\ceshi3\\FAS202024131135\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\ceshi\\vs2022\\ceshi3\\FAS202024131135\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\ceshi\\vs2022\\ceshi3\\FAS202024131135\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\ceshi\\vs2022\\ceshi3\\FAS202024131135\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\ceshi\\vs2022\\ceshi3\\FAS202024131135\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\ceshi\\vs2022\\ceshi3\\FAS202024131135\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\ceshi\\vs2022\\ceshi3\\FAS202024131135\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\ceshi\\vs2022\\ceshi3\\FAS202024131135\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\ceshi\\vs2022\\ceshi3\\FAS202024131135\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\ceshi\\vs2022\\ceshi3\\FAS202024131135\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\ceshi\\vs2022\\ceshi3\\FAS202024131135\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\ceshi\\vs2022\\ceshi3\\FAS202024131135\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\ceshi\\vs2022\\ceshi3\\FAS202024131135\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\ceshi\\vs2022\\ceshi3\\FAS202024131135\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\ceshi\\vs2022\\ceshi3\\FAS202024131135\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\ceshi\\vs2022\\ceshi3\\FAS202024131135\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.FAS202024131135.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.FAS202024131135.props",
+      "PackagePath": "build\\FAS202024131135.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.FAS202024131135.props",
+      "PackagePath": "buildMultiTargeting\\FAS202024131135.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.FAS202024131135.props",
+      "PackagePath": "buildTransitive\\FAS202024131135.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

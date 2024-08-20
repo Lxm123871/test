@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - FAS202024131135</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/AMS202024131135.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">AMS202024131135</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        @*登录才能看到并进行相关操作*@
+                        @if (User.Identity.IsAuthenticated) 
+                        {
+                             
+                            <li><a class="dropdown-item" asp-area="" asp-controller="Admin" asp-action="Index">资产分类</a></li>
+
+                            <li><a class="dropdown-item" asp-area="" asp-controller="Assets" asp-action="Index">资产管理</a></li>
+                            <li><a class="dropdown-item" asp-area="" asp-controller="Categories" asp-action="Index">资产类别管理</a></li>
+                            <li><a class="dropdown-item" asp-area="" asp-controller="Employees" asp-action="Index">员工管理</a></li>
+                            <li><a class="dropdown-item" asp-area="" asp-controller="Home" asp-action="About">关于我</a></li>
+
+                        }
+                    </ul>
+                    @if (User.Identity.Name != null)
+                    {
+                        <span style="text-align:right" class="navbar-text text-black text-center p-2">@User.Identity.Name 欢迎登录!  <a href="/Home/Logout" style="color:coral"> [注销]</a></span>
+                    }
+                    else
+                    {
+                        //显示登录及注册按钮
+                        <span><a class="btn btn-primary btn-sm" asp-area="" asp-controller="Home" asp-action="Login">登录</a></span>
+                        <span class="p-2"><a class="btn btn-outline-secondary btn-sm" asp-area="" asp-controller="Home" asp-action="Register">注册</a></span>
+                    }
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2023 - 刘雪梅 - FAS202024131135 - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
